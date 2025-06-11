@@ -9,7 +9,7 @@ import streamlit as st
 import joblib
 
 st.title('TensoraLabs - Regression')
-st.write('We help you create Machine Learning Models without writing any piece of code.')
+st.write('Machine Learning Models without code.')
 
 dataset = st.file_uploader("Choose a CSV File", type='.csv')
 
